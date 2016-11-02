@@ -1,0 +1,87 @@
+body, html {height : 100%}
+
+body {
+	padding : 0px; font-family:arial;
+	background : url(back.jpg); background-size : 100% 100%;
+	background-position : left bottom ; background-attachment:fixed
+	}
+
+ #wrapper {max-width : 985px ; margin : auto ;position : relative}
+ #koteret {background-color : rgba(255,255,255,0.7) ; height : 140px ; position : relative ;  border-top-left-radius : 30px; border-top-right-radius : 30px}
+ #koteret h1{text-align :center  ; font-size : 250%; border : none ;  font-weight : 400 ; margin : 0px ; padding : 0px}
+ #content {display : inline-block ;max-width : 785.5px ; background-color : rgba(255,255,255,0.7); padding-bottom : 30px ;}
+ #content_wrapper {background-color : rgba(255,255,255,0.3)  ; max-width : 1200px }
+ 
+ h1 {
+	margin : 0px ; padding : 0px ;
+	padding-right : 20px ; margin-top : 30px ;
+	margin-bottom : 30px ; font-size : 150% ; 
+	color : #4E4A45 ; border-bottom : 1px dotted #4E4A45 ;
+	text-align : right 
+	}
+
+ h2 {
+	 margin : 0px ; padding : 0px ;
+	 margin-top : 5px ; margin-bottom : 5px ;
+	 font-size : 100% ; color : #008080 ; 
+	 text-align : right
+	}
+
+ #tafrit1 .current {background-color : #008080 ; font-weight : 700}
+ #side .current { font-weight : 700 ; }
+ #tafrit1{
+	 padding : 0px ;  margin : 0px ;
+	 position : absolute ; bottom : 0px ;
+	 width : 100% ; background: rgba(88,88,88,0.3)
+	 }
+ #tafrit1> li {
+	 position : relative ;display : inline-block ;
+	 text-align : center ;  list-style : none;
+	 border-left : 1px black dotted;
+	 height : 35px ;  bottom : 0px
+	 }
+ #tafrit1 >li> a {
+	text-decoration : none ; color : black ;
+	min-width : 130px ; display : inline-block;
+	position : relative ; top : 10px
+	}
+ #tafrit1 .submenu  {
+	 position : absolute ; z-index : 1 ;
+	 top : 35px ; right : 0px ; display : none ;
+	 list-style-type : none; background-color : rgba(88,88,88,0.7);
+	 border-right : 1px black dotted;
+	 box-shadow: 3px 3px 20px #888888;
+	 width : 90px  ; padding-top: 10px ;
+	 padding-bottom : 10px;
+	 }
+ 
+ #tafrit1 .submenu li  a {
+	 display : block  ; padding-bottom: 2px ;
+	 direction : rtl ; text-align : right ;
+	 font-size : 80% ; margin-right :-30px;
+	 text-decoration : none  ; color : white
+	 }
+ #tafrit1 a:hover{color : white ; font-weight : 700}
+ #tafrit1 li:hover .submenu {display : block }
+ #sidebar {width : 195px ;background-color : rgba(88,88,88,0.9); display : inline-block ; vertical-align : top}
+ #side  li {list-style-type : none;  border-bottom : dotted 1px black ; margin-right : -30px}
+ #side  li  a {
+	 display : block ; padding-bottom: 2px;
+	 direction : rtl ; text-align : right;
+	 text-decoration : none; color : #D8D8D8 	
+	 }
+
+ #footer {background-color : rgba(88,88,88,0.3) ; height : 35px ;
+ color : white ; font-size : 80%; text-align : center;
+ border-bottom-left-radius : 30px; border-bottom-right-radius : 30px}
+
+ #text1 {
+	 font-size : 115%;direction : rtl ; text-align : right;
+	 font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	 margin-left : 15px ;  margin-right : 15px
+	 }
+ .eng {font-family : arial ; direction : ltr; font-size : 100% ;margin : 10px}
+ .pic {box-shadow: 10px 10px 20px #888888; display : inline-block ; border-radius : 20px}
+ .contact{font-family : arial ; direction : rtl ; font-size : 100% ; text-align  : center ; margin-right : 30px}
+ .button { background : #008080 ; width : 200px ; height : 35px ; border-radius :20px ; color : white ; border : none ; font-family : arial} 
+ .button:hover {color :black ; font-weight : 800} 

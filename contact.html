@@ -1,0 +1,73 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>עליית עידן המלכים</title>
+  <meta charset="utf-8">
+
+
+     <link rel="stylesheet"  href="MyCSS.css" >
+      <script  src="MyJS.js"></script>
+</head>
+
+<body onLoad="mark()" dir=rtl  >
+
+<div id=wrapper>
+<div id=koteret><br>
+ <h1>עליית עידן המלכים</h1>
+
+
+<div style="  "> <script>document.write(menu)</script></div>
+
+</div>
+
+<div id=content_wrapper style="">
+<div id=sidebar   style="" >
+ <ul  id=side>
+
+</ul>
+
+
+ </div>
+<div id=content>
+ <h1 style="text-align:center">צור קשר</h1>
+<div class=contact>
+ <p style="text-align : right">אם נתקלתם בבעיית תוכן, עיצוב או שיש לכם שאלות בנוגע לכל דבר באתר או שסתם אתם מעוניינים ליצור קשר, אתם מוזמנים למלא טופס ומנהל האתר יחזור אליכם בהקדם.</p>
+ 
+<form method=post onsubmit="return formValidation()" action="form_mailer.php" name="myForm">
+<label for="Name">שם מלא:</label><br><input type=text value="" name=Name id=Name placeholder="שם..."></input>
+<br>
+<br>
+<label for="email">כתובת אימייל:</label><br><input type=text placeholder="yourname@youremail.com" value="" id=email name=email></input>
+<br>
+<p><label for="Description">תיאור הפנייה</label></p>
+<textarea rows="7" cols="50" placeholder="תוכן הפנייה..." value="" id=ReasonToContact name=ReasonToContact ></textarea><br>
+<p><label for="Subject">נושא הפנייה</label>
+<select name="dropdown">
+<option value="Content" selected><label for="תוכן">תוכן</label></option>
+<option value="Style"><label for="עיצוב">עיצוב</label></option>
+<option value="Webmaster"><label for="למנהל האתר">פנייה למנהל האתר</label></option></select></p>
+<input type="submit" onclick="formValidation()" value="שלח" class="button"/>
+</form>
+
+</div>
+
+<!--content--> 
+</div>
+
+
+
+ </div>
+ <div style="clear : both"></div>
+ <div id=footer   >
+כל הזכויות שמורות לאלדד כורם מלבד מקומות בהם צויין אחרת. אין לשכפל, להעתיק או לצלם.
+
+</div>
+<!--wrapper-->
+ </div>
+
+</body>
+
+</html>
